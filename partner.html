@@ -159,8 +159,9 @@
     }
     @media (max-width:640px){
       .wrap{width:min(100% - 24px,1120px)}
-      .nav{height:64px}
-      .nav-actions .btn-outline{display:none}
+      .nav{height:auto;min-height:64px;padding:10px 0;gap:10px;flex-wrap:wrap}
+      .nav-actions{gap:6px;flex-wrap:wrap;max-width:100%;margin-left:auto}
+      .nav-actions .btn{font-size:13px;padding:0 10px;white-space:nowrap}
       .btn{min-height:44px;padding:0 16px}
       .hero{padding:52px 0 56px}
       .hero p{font-size:17px}
@@ -403,9 +404,9 @@
         </p>
         <div class="contact-actions">
           <button class="btn btn-primary js-open-contact" type="button">입점·서비스 등록 문의</button>
-          <a class="btn btn-outline" href="tel:07088262596">070-8826-2596</a>
+          <a class="btn btn-outline" href="tel:028502595">02-850-2595</a>
         </div>
-        <div class="contact-meta">상품 입점 및 서비스 등록 문의 · kimjh@ideait.co.kr · 070-8826-2596</div>
+        <div class="contact-meta">상품 입점 및 서비스 등록 문의 · kimjh@ideait.co.kr · 02-850-2595</div>
       </div>
     </section>
   </main>
